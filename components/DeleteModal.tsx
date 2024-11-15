@@ -40,10 +40,10 @@ export const DeleteModal = ({ roomId }: DeleteModalProps) => {
             <DialogTrigger asChild>
                 <Button className="min-w-9 rounded-xl bg-transparent p-2 transition-all">
                     <Image
-                        src="/assets/icons/delete.svg"
+                        src="/assets/icons/delete-modal.svg"
                         alt="delete"
-                        width={20}
-                        height={20}
+                        width={30}
+                        height={30}
                         className="mt-1"
                     />
                 </Button>
